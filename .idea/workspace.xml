@@ -40,11 +40,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timeTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amery/basic/timeTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amery/basic/indent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amery/basic/support.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YYY.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/amery/basic/YYY.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -62,15 +92,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/amery/basic/indent.py" />
         <option value="$PROJECT_DIR$/amery/basic/README.txt" />
         <option value="$PROJECT_DIR$/amery/basic/guess.py" />
-        <option value="$PROJECT_DIR$/amery/basic/YYY.py" />
         <option value="$PROJECT_DIR$/amery/basic/classtest.py" />
         <option value="$PROJECT_DIR$/amery/basic/Employee.py" />
         <option value="$PROJECT_DIR$/amery/basic/loop.py" />
         <option value="$PROJECT_DIR$/amery/basic/time.py" />
         <option value="$PROJECT_DIR$/amery/basic/timeTest.py" />
+        <option value="$PROJECT_DIR$/amery/basic/indent.py" />
+        <option value="$PROJECT_DIR$/amery/basic/support.py" />
+        <option value="$PROJECT_DIR$/amery/basic/YYY.py" />
       </list>
     </option>
   </component>
@@ -158,24 +189,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Python.time">
-    <configuration default="false" name="loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amery/basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="amery" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amery/basic/loop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.YYY">
     <configuration default="false" name="Unittests in Employee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,28 +205,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amery/basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="amery" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amery/basic/Employee.py" />
-      <option name="CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -250,6 +242,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="amery" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amery/basic/timeTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="indent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amery/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="amery" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amery/basic/indent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YYY" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/amery/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="amery" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/amery/basic/YYY.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -389,19 +415,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.loop" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Employee" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.classtest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.time" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Employee" />
+      <item index="1" class="java.lang.String" itemvalue="Python.classtest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.time" />
+      <item index="3" class="java.lang.String" itemvalue="Python.indent" />
+      <item index="4" class="java.lang.String" itemvalue="Python.YYY" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.time" />
-        <item index="1" class="java.lang.String" itemvalue="Python.classtest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Employee" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.loop" />
+        <item index="0" class="java.lang.String" itemvalue="Python.YYY" />
+        <item index="1" class="java.lang.String" itemvalue="Python.indent" />
+        <item index="2" class="java.lang.String" itemvalue="Python.time" />
+        <item index="3" class="java.lang.String" itemvalue="Python.classtest" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Employee" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +478,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1004" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21853608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,22 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amery/basic/YYY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amery/basic/indent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1516">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/amery/basic/Employee.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -545,10 +555,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/amery/basic/indent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amery/basic/support.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/amery/basic/timeTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amery/basic/YYY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
