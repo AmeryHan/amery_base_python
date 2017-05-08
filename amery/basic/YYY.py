@@ -46,25 +46,10 @@ temp_convert("xyz")
 
 #import MySQLdb
 
-import thread
-import time
 
+import json
 
-# 为线程定义一个函数
-def print_time(threadName, delay):
-    count = 0
-    while count < 5:
-        time.sleep(delay)
-        count += 1
-        print "%s: %s" % (threadName, time.ctime(time.time()))
+data = [ { 'a' : 1, 'b' : 2, 'c' : 3, 'd' : 4, 'e' : 5 } ]
 
-
-# 创建两个线程
-try:
-    thread.start_new_thread(print_time, ("Thread-1", 2,))
-    thread.start_new_thread(print_time, ("Thread-2", 4,))
-except:
-    print "Error: unable to start thread"
-
-while 1:
-    pass
+json = json.dumps(data)
+print json
