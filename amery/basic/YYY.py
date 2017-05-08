@@ -21,3 +21,50 @@ if matchObj:
     print "matchObj.group(2) : ", matchObj.group(2)
 else:
     print "No match!!"
+
+
+print (re.search('www', 'www.runoob.com').span())
+print (re.search('com', 'www.runoob.com').span())
+
+try:
+    fh = open("testfile", "w")
+    fh.write("这是一个测试文件，用于测试异常!!")
+except IOError:
+    print "Error: 没有找到文件或读取文件失败"
+else:
+    print "内容写入文件成功"
+    fh.close()
+
+
+def temp_convert(var) :
+    try:
+        return int(var)
+    except ValueError, Argument :
+        print "no number\n", Argument
+
+temp_convert("xyz")
+
+#import MySQLdb
+
+import thread
+import time
+
+
+# 为线程定义一个函数
+def print_time(threadName, delay):
+    count = 0
+    while count < 5:
+        time.sleep(delay)
+        count += 1
+        print "%s: %s" % (threadName, time.ctime(time.time()))
+
+
+# 创建两个线程
+try:
+    thread.start_new_thread(print_time, ("Thread-1", 2,))
+    thread.start_new_thread(print_time, ("Thread-2", 4,))
+except:
+    print "Error: unable to start thread"
+
+while 1:
+    pass
