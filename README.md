@@ -9,6 +9,7 @@ brew search python
 brew install python3
 
 sudo vi /etc/paths
+export PYTHONPATH=.
 
 which python
 which pytho3
